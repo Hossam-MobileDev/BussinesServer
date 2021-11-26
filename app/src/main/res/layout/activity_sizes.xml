@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="المقاسات"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_weight="2"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:textColor="@color/secondaryColor"
+            android:textSize="30px"
+            android:textStyle="bold"></TextView>
+
+
+        <EditText
+            android:id="@+id/stoo"
+            android:layout_width="0dp"
+            android:layout_margin="3dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="الي"
+            android:textColor="@color/primaryColor"
+            android:textColorHint="@color/primaryColor"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/sfroom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:hint="من"
+            android:textColor="@color/primaryColor"
+            android:textColorHint="@color/primaryColor"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_weight="2"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:textColor="@color/secondaryColor"
+            android:textSize="30px"
+            android:textStyle="bold"></TextView>
+
+
+        <EditText
+            android:id="@+id/mtoo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+
+            android:layout_weight="1"
+            android:hint="الي"
+            android:inputType="number"
+            android:textColor="@color/primaryColor"
+            android:textColorHint="@color/primaryColor"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/mfroom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:hint="من"
+            android:inputType="number"
+            android:textColor="@color/primaryColor"
+            android:textColorHint="@color/primaryColor"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_weight="2"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M+"
+            android:textColor="@color/secondaryColor"
+            android:textSize="30px"
+            android:textStyle="bold"></TextView>
+
+
+        <EditText
+            android:id="@+id/mplustoo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+
+            android:layout_weight="1"
+            android:hint="الي"
+            android:inputType="number"
+            android:textColor="@color/primaryColor"
+            android:textColorHint="@color/primaryColor"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/mplusfroom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:hint="من"
+            android:inputType="number"
+            android:textColor="@color/primaryColor"
+            android:textColorHint="@color/primaryColor"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_weight="2"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L"
+            android:textColor="@color/secondaryColor"
+            android:textSize="30px"
+            android:textStyle="bold"></TextView>
+
+
+        <EditText
+            android:id="@+id/ltoo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="الي"
+            android:layout_margin="3dp"
+
+            android:inputType="number"
+            android:textColor="@color/primaryColor"
+            android:textColorHint="@color/primaryColor"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/lfroom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+
+            android:layout_weight="1"
+            android:hint="من"
+            android:inputType="number"
+            android:textColor="@color/primaryColor"
+            android:textColorHint="@color/primaryColor"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_weight="2"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="L+"
+            android:textColor="@color/secondaryColor"
+            android:textSize="30px"
+            android:textStyle="bold"></TextView>
+
+
+        <EditText
+            android:id="@+id/lplustoo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="الي"
+            android:inputType="number"
+            android:layout_margin="3dp"
+
+            android:textColor="@color/primaryColor"
+            android:textColorHint="@color/primaryColor"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/lplusfroom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:hint="من"
+            android:inputType="number"
+            android:textColor="@color/primaryColor"
+            android:textColorHint="@color/primaryColor"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_weight="2"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XL"
+            android:textColor="@color/secondaryColor"
+            android:textSize="30px"
+            android:textStyle="bold"></TextView>
+
+
+        <EditText
+            android:id="@+id/xltoo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+
+            android:hint="الي"
+            android:inputType="number"
+            android:textColor="@color/primaryColor"
+            android:textColorHint="@color/primaryColor"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/xlfroom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:hint="من"
+            android:inputType="number"
+            android:textColor="@color/primaryColor"
+            android:textColorHint="@color/primaryColor"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_upload_sizes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:text="اضافة "
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>
+<!--
+<androidx.constraintlayout.widget.ConstraintLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SizesActivity">
+
+</androidx.constraintlayout.widget.ConstraintLayout>-->

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hashtagco.bussinesserver.MainActivity">
+<!--<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/image"
+    android:background="@drawable/logo"
+    ></ImageView>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearsing"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Shrine.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+
+            android:hint="الايميل">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_email"
+                android:layout_width="match_parent"
+                android:textColor="@color/black1"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:inputType="textEmailAddress"></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Shrine.TextInputLayout"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="الباسورد">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_Password"
+                android:layout_width="match_parent"
+                android:textColor="@color/black1"
+               android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:gravity="start"
+               ></com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/checkboxremeber"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primaryColor"
+            android:text="تذكرني"></com.google.android.material.checkbox.MaterialCheckBox>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_signin"
+            android:layout_margin="4dp"
+            android:textStyle="bold"
+            style="@style/Widget.Shrine.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/quantum_white_100"
+            android:text=" دخول ">
+
+        </com.google.android.material.button.MaterialButton>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_signup"
+            android:layout_margin="4dp"
+            android:textStyle="bold"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" تسجيل دخول جديد  ">
+
+        </com.google.android.material.button.MaterialButton>
+    </LinearLayout>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/frs"
+    android:layout_above="@+id/linearsing"
+    android:layout_margin="5dp"></ImageView>
+</RelativeLayout>

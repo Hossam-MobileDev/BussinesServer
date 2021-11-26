@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "267662761512",
+    "firebase_url": "https://bussinssclient-default-rtdb.firebaseio.com",
+    "project_id": "bussinssclient",
+    "storage_bucket": "bussinssclient.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267662761512:android:b973b2412455edf52b1f1d",
+        "android_client_info": {
+          "package_name": "com.hashtagco.bussinesclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267662761512-1t4h9hunmrn3r87t3tt50j55jt0o7rcv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hashtagco.bussinesclient",
+            "certificate_hash": "2a4705437b7288a573d3288a36e659c06e3ee63f"
+          }
+        },
+        {
+          "client_id": "267662761512-jj9ui9fn3v3l0hvlkc2novk40jsue3ba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hashtagco.bussinesclient",
+            "certificate_hash": "18585b3e279429997e32f0e15731c1e3069b9fa5"
+          }
+        },
+        {
+          "client_id": "267662761512-j7aonfhb90cj6n8omv9el553rubh1eeh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZAl3_L7su68gQyHnUZ4zKXpLRVQ2i7Rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267662761512-j7aonfhb90cj6n8omv9el553rubh1eeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267662761512:android:2fc67faf66b7534b2b1f1d",
+        "android_client_info": {
+          "package_name": "com.hashtagco.bussinesdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267662761512-j7aonfhb90cj6n8omv9el553rubh1eeh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZAl3_L7su68gQyHnUZ4zKXpLRVQ2i7Rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267662761512-j7aonfhb90cj6n8omv9el553rubh1eeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267662761512:android:44a220bd80e5ab842b1f1d",
+        "android_client_info": {
+          "package_name": "com.hashtagco.bussinesserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267662761512-3198e4pl5s9s2sgbkf5es8mto22td7qs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hashtagco.bussinesserver",
+            "certificate_hash": "26192bc97ac284a21d6f28aad1a16bf11756970e"
+          }
+        },
+        {
+          "client_id": "267662761512-au1nn19n7ol051lnq6r7uo9mi9higlm6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hashtagco.bussinesserver",
+            "certificate_hash": "18585b3e279429997e32f0e15731c1e3069b9fa5"
+          }
+        },
+        {
+          "client_id": "267662761512-j7aonfhb90cj6n8omv9el553rubh1eeh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZAl3_L7su68gQyHnUZ4zKXpLRVQ2i7Rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267662761512-j7aonfhb90cj6n8omv9el553rubh1eeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

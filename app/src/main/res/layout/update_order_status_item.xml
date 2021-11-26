@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    android:layout_margin="8dp"
+
+    >
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_margin="10dp"
+      >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="تعديل حالة الطلب"
+        android:textSize="40px"
+        android:textColor="@color/primaryColor"
+        android:layout_margin="5dp"
+        />
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/OrderstatusSpinner_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+<View
+    android:layout_width="match_parent"
+    android:background="@color/primaryColor"
+    android:layout_height="1dp"></View>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="40px"
+        android:textColor="@color/primaryColor"
+android:layout_marginTop="10dp"
+        android:text="اختر المندوب"
+        android:layout_margin="5dp"
+        />
+
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/OrderchoseShipperSpinner_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+  </LinearLayout>
+
+
+
+
+</com.google.android.material.card.MaterialCardView>

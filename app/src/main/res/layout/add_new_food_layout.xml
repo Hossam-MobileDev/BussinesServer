@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    >
+<com.google.android.material.textfield.TextInputLayout
+    style="@style/Widget.Shrine.TextInputLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:hint="الاسم"
+    >
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/name"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/primaryColor"
+        android:textColorHint="#e3e3e3"
+        android:textSize="24sp"/>
+</com.google.android.material.textfield.TextInputLayout>
+<!--
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<com.google.android.material.card.MaterialCardView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Shrine.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="المقاس"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_description_anf"
+                android:inputType="textMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="موحدة"
+                android:textColor="@color/primaryColor"
+                android:textColorHint="#e3e3e3"
+                android:textSize="24sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Shrine.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="الاسم"
+            >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name"
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/primaryColor"
+            android:textColorHint="#e3e3e3"
+            android:textSize="24sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        &lt;!&ndash;<com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Shrine.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="السعر"
+            >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_price_anf"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black1"
+android:inputType="number"
+            android:textSize="24sp"/>
+        </com.google.android.material.textfield.TextInputLayout>&ndash;&gt;
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Shrine.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="النوع"
+            >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_discount_anf"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/black1"
+            android:textColorHint="#e3e3e3"
+            android:textSize="24sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+           android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_select_anf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="8dp"
+                android:text="اختار صورة  "
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_upload_anf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:text="اضافة "
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textAllCaps="false"
+                android:layout_margin="8dp"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+</ScrollView>-->
+</LinearLayout>

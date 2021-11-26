@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hashtagco.bussinesserver.Home">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            app:title="المنتجات"
+            android:layout_height="?android:attr/actionBarSize"
+           />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_home" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+app:backgroundTint="@color/primaryColor"
+        app:iconTint="@color/quantum_white_100"
+        app:icon="@drawable/playlist_add"
+        android:textColor="@color/quantum_white_100"
+        android:text="اضافة قسم جديد"
+        android:layout_margin="@dimen/fab_margin"
+       />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">فرست ميديكال الادمن</string>
+    <string name="slogan">We transport products to customers as quick as possible</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="MAPS_API_KEY">AIzaSyAVLWLogL9_9JHKWg1RuAJ9TIhPYOlZLeg</string>
+    <string name="description_category">Add New Category</string>
+    <string name="enter_menu_id">Enter Menu ID Category</string>
+    <string name="name">Name</string>
+    <string name="select">Select</string>
+    <string name="Upload">Upload</string>
+    <string name="shr_app_name">Menu Admin</string>
+    <string name="slogin">We Transport Products to Customers as quick as our betrays</string>
+    <string name="send_message">Send Message</string>
+    <string name="title">Title</string>
+    <string name="content_message">Content Message</string>
+    <string name="ShippersManagement">Shippers Management</string>
+    <string name="name_shipper">Shipper Name</string>
+    <string name="shipper_phone">Shipper Phone</string>
+    <string name="shipper_password">Shipper Password</string>
+    <string name="status">Status</string>
+    <string name="chose_shipper">Chose Shipper</string>
+    <string name="shipper">Shipper</string>
+    <string name="order_details">Order Details</string>
+    <string name="successful_Orders">Successful Orders</string>
+    <string name="Call_shipper">Call Shipper</string>
+    <string name="Call_client">Call Client</string>
+    <string name="AddToBanner">ADD BANNER</string>
+    <string name="choose_food">CHOSEE FOOD</string>
+    <string name="menuId">MENU ID</string>
+    <string name="FoodName">FOOD NAME</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="primaryColor">#8f2c0a</color>
+
+    <color name="primaryLightColor">#8f2c0a</color>
+
+    <color name="primaryDarkColor">#8f2c0a</color>
+
+    <color name="secondaryColor">#8f2c0a</color>
+
+    <color name="secondaryLightColor">#c55a35</color>
+
+    <color name="secondaryDarkColor">#5c0000</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="toolbarIconColor">@color/textColorPrimary</color>
+    <color name="textInputOutlineColor">#9E9D24</color>
+    <color name="grey_90">#263238</color>
+    <color name="grey_40">#999999</color>
+    <color name="yello">#ffc402</color>
+    <color name="black1">#080808</color>
+    <color name="black2">#2d3033</color>
+    <color name="Orange_medium">#ff9703</color>
+    <color name="red">#ec0101</color>
+    <color name="gray">#565758</color>
+</resources>

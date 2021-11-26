@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".SignUpActivity">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:background="@color/primaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/textColorPrimary"
+                android:textSize="20dp"
+                android:text="فريست ميديكال صاحب المتجر"
+                ></TextView>
+        </RelativeLayout>
+    </com.google.android.material.appbar.MaterialToolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Shrine.TextInputLayout"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="الايميل">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ediEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                android:inputType="textEmailAddress"
+
+
+                android:textColor="@color/primaryColor"
+
+                android:textSize="20sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Shrine.TextInputLayout"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="الباسورد ">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/oldpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                android:inputType="phone"
+
+
+                android:textColor="@color/primaryColor"
+
+                android:textSize="20sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+<!--
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Shrine.TextInputLayout"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="اسم العميل">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_NameUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textDirection="ltr"
+
+                android:textColor="@color/textColorPrimary"
+                android:textSize="20sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+-->
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.Shrine.TextInputLayout"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint= "الرقم السري">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/secretno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="ltr"
+                android:textColor="@color/primaryColor"
+                android:textSize="20sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text= "تسجيل جديد"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="35px"
+        style="@style/Widget.Shrine.Button"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        />
+</RelativeLayout>

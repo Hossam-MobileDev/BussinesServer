@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:orientation="horizontal"
+    >
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="60dp"
+    android:src="@drawable/ic_baseline_image_24"
+    android:id="@+id/profile_image"
+    android:layout_height="60dp">
+
+</de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/txt_email"
+            android:text="hossam@yahoo.com"></TextView>
+        <com.daasuu.bl.BubbleLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:bl_bubbleColor="#E9ECF0"
+            app:bl_arrowDirection="left"
+            app:bl_arrowHeight="8dp"
+            app:bl_arrowPosition="16dp"
+            app:bl_arrowWidth="8dp"
+            app:bl_cornersRadius="6dp"
+            app:bl_strokeWidth="1dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+             >
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id="@+id/image_preview"
+    android:scaleType="fitXY"></ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:id="@+id/txt_chat_message"
+                    android:layout_marginRight="4dp"
+                    android:textColor="@color/black1"
+                    android:text="vvvvvvgggggrrrrr"></TextView>
+
+            </LinearLayout>
+
+        </com.daasuu.bl.BubbleLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/txt_time"
+            android:text="5 minutes"></TextView>
+    </LinearLayout>
+    </LinearLayout>
